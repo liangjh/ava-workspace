@@ -1,9 +1,9 @@
-const AvaSwap = artifacts.require("AvaSwap");
 const DevToken = artifacts.require("DevToken");
+const AvaSwap = artifacts.require("AvaSwap");
 
-module.exports = function(deployer) {
+module.exports = async function(deployer) {
 
-    await deployer.deploy(DevToken, "5777");
+    await deployer.deploy(DevToken);
     const devToken = await DevToken.deployed();
 
     await deployer.deploy(AvaSwap, devToken.address);

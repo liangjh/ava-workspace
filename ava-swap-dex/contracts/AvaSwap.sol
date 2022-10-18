@@ -1,11 +1,11 @@
-pragma solidity ^0.6.0;
+pragma solidity >=0.6.0;
 
 
 import "@chainlink/contracts/src/v0.6/interfaces/AggregatorV3Interface.sol";
 import "./DevToken.sol";
 
 
-contract AwaSwap {
+contract AvaSwap {
     string public name = "AvaSwap Network Exchange";
     DevToken public Token;
     uint public rate;
