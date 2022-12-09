@@ -1,2 +1,2 @@
-# ava-workspace
-Smart contracts / crypto projects on Avalanche network
+# smart-contract-workspace
+Smart contracts / crypto projects on various networks
