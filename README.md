@@ -1,9 +1,9 @@
-# smart-contract-workspace
+# Smart Contract Workspace
 Smart contracts / crypto scratch code / workspace on various networks:  
-- Avalanche
-- Polygon
-- Solana
-- Aptos
+- Avalanche (Solidity)
+- Polygon (Solidity)
+- Solana (Rust)
+- Aptos (Rust)
 
 Creating NPM Environment
 ```shell
